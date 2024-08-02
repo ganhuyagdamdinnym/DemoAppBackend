@@ -7,6 +7,10 @@ import { TypeDefs } from "@/graphql/schema";
 import { resolvers } from "@/graphql/resolvers";
 connect();
 
+
+
+
+
 const server = new ApolloServer({
   typeDefs: TypeDefs,
   resolvers,
